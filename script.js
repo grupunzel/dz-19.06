@@ -5,10 +5,12 @@ function check() {
     let elem = document.getElementById("name").value;
     if (elem.length < 2) {
         alert("The gab Name should contain 2 or more symbols.");
-        if (document.getElementById("pass1").value != document.getElementById("pass2").value) {
-            alert("Passwords don't match.");
-        }
     }
+    
+    else if (document.getElementById("pass1").value != document.getElementById("pass2").value) {
+        alert("Passwords don't match.");
+    }
+
     else {
         alert("You signed up successfully!");
     }
