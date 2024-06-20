@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(170, 205, 255);
+    font-family: 'Bookman Old Style', sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#name, #mail, #pass1, #pass2, #sub, #username, #pass, #login {
+    font-family: 'Bookman Old Style', sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#sub, #login {
+    background-color: rgb(85, 187, 255);
+}
+
+#button, #goBack {
+    font-family: 'Bookman Old Style', sans-serif;
+    border: none;
+    background-color: rgb(170, 205, 255);
+    text-decoration: underline;
+    color: blue;
+}

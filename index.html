@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Dz</title>
+</head>
+<body>
+    <form id = "form1" method = "GET" action = "">
+        <h2>Sign Up</h2>
+
+        <a>Name: </a>
+        <input id = "name" type = "text" placeholder = "2 or more symbols" required>
+
+        <br><br>
+        <a>E-mail: </a>
+        <input type = "email" id = "mail" placeholder = "*****@mail.ru" required>
+
+        <br><br>
+        <a>Create pasword: </a>
+        <input type = "text" id = "pass1" placeholder = "create a strong password" required>
+
+        <br><br>
+        <a>Repeat your pasword: </a>
+        <input type = "text" id = "pass2" placeholder = "repeat it" required>
+
+        <br><br>
+        <input type = "submit" id = "sub" value = "Sign Up" onclick = "check()">
+
+        <br><br>
+        <button id = "button" onclick = "logIn()">I already have an account</button>
+
+    </form>
+
+    <form id = "form2" method = "GET" action = "">
+
+        <h2>Log In</h2>
+
+        <a>Username: </a>
+        <input type = "text" id = "username">
+
+        <br><br>
+        <a>Password: </a>
+        <input type = "text" id = "pass">
+
+        <br><br>
+        <input type = "submit" id = "login" value = "Log In">
+
+        <br><br>
+        <button id = "goBack" onclick = "returnToPreviosPage()">Go back</button>
+
+    </form>
+    
+    <script src = "script.js"></script>
+</body>
+</html>
